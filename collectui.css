@@ -1,0 +1,59 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: grid;
+    background-color:whitesmoke;
+}
+
+.logocontainer {
+    display: grid;
+    grid-template-columns: 20px 20px;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 190px;
+}
+
+.logo {
+    background-color: rgb(76, 0, 255);
+    width: 220px;
+    height: 190px;
+}
+
+.title {
+    background-color: rgb(43, 125, 226);
+    width: 585px;
+    height: 60px;
+    margin: 130px auto auto 235px;
+}
+
+.wholebodycontainer {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 3000px;
+    margin: 50px auto auto 50px;
+}
+
+.sidebarlinks {
+    background-color: #005eff;
+    width: 160px;
+    height: 2640px;
+}
+
+.designscontainer {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: repeat(12, 6%);
+    background-color: whitesmoke;
+    width: 1035px;
+    height: 100%;
+    margin: auto auto auto 100px;
+}
+
+.design {
+    background-color: crimson;
+    width: 195px;
+    height: 170px;
+    margin: 0px auto auto auto;
+}
