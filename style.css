@@ -1,3 +1,124 @@
 body {
-    background-color: palevioletred;
+    background-color: whitesmoke;
 }
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+p{
+    font-family: source-code-pro,monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container{
+    display:grid;
+    width: 1300px;
+    background-color: yellowgreen;
+    margin: 75px auto auto auto;
+}
+.nav {
+    display: grid;
+    background-color: tomato;
+    width: 1300px;
+    height: 75px;
+    font-family: 'Open Sans', sans-serif;
+    grid-template-columns: 1fr 1fr;
+}
+
+.name{
+    display:grid;
+    background-color: thistle;
+    width: 800px;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 3.5em;
+}
+
+.menu{
+    display: grid;
+    background-color: turquoise;
+    width: 500px;
+    height: 30px;
+    margin: 45px auto auto auto;
+    grid-template-columns: 34% 33% 33%;
+}
+
+.about{
+    display:grid;
+    font-style: italic;
+    font-weight: 800;
+    text-align: right;
+}
+
+.work{
+    display:grid;
+    font-style: italic;
+    font-weight: 800;
+    text-align: right;
+}
+
+.contact{
+    display:grid;
+    text-align: right;
+    font-style: italic;
+    font-weight: 800;
+}
+.pinkbarone{
+    display:grid;
+    width: 1300px;
+    height: 22px;
+    background-color: #FF73D6;
+}
+
+.projects{
+    display: grid;
+    background-color: pink;
+    width: 1300px;
+    height: 400px;
+    margin: auto;
+    grid-template-columns: 34.7% 34.6% 34.7%;
+}
+
+.projectone{
+    display: grid;
+    background-color: orange;
+    width: 400px;
+    height: 400px;
+}
+
+.projecttwo{
+    display: grid;
+    background-color: orange;
+    width: 400px;
+    height: 400px;
+}
+
+.projectthree{
+    display: grid;
+    background-color: orange;
+    width: 400px;
+    height: 400px;
+}
+.seemorecontainer{
+    display: grid;
+    background-color: lightgrey;
+    width: 400px;
+    height: 150px;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.seemore{
+    font-weight: 800;
+    margin: auto auto 5px auto;
+}
+
+.arrow{
+    background-color: #FF73D6;
+    width: 100px;
+    height: 50px;
+    margin: 5px auto auto auto;
+}
+.projectspagetwo{}
