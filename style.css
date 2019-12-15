@@ -1,11 +1,13 @@
 body {
-    background-color: whitesmoke;
+    display:grid;
+    background-color: whitesmoke;  
 }
 
 h1{
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
 }
+
 p{
     font-family: source-code-pro,monospace;
     font-weight: 400;
@@ -15,12 +17,12 @@ p{
 .container{
     display:grid;
     width: 1300px;
-    background-color: yellowgreen;
+    background-color: lightpink;
     margin: 75px auto auto auto;
 }
+
 .nav {
     display: grid;
-    background-color: tomato;
     width: 1300px;
     height: 75px;
     font-family: 'Open Sans', sans-serif;
@@ -29,7 +31,6 @@ p{
 
 .name{
     display:grid;
-    background-color: thistle;
     width: 800px;
     font-style: italic;
     font-weight: 800;
@@ -38,7 +39,6 @@ p{
 
 .menu{
     display: grid;
-    background-color: turquoise;
     width: 500px;
     height: 30px;
     margin: 45px auto auto auto;
@@ -50,6 +50,22 @@ p{
     font-style: italic;
     font-weight: 800;
     text-align: right;
+    
+}
+
+a{
+    color: black;
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+  /* mouse over link */
+a:hover {
+    color: hotpink;
 }
 
 .work{
@@ -72,53 +88,72 @@ p{
     background-color: #FF73D6;
 }
 
-.projects{
-    display: grid;
-    background-color: pink;
-    width: 1300px;
-    height: 400px;
-    margin: auto;
-    grid-template-columns: 34.7% 34.6% 34.7%;
-}
 
-.projectone{
-    display: grid;
-    background-color: orange;
-    width: 400px;
-    height: 400px;
-}
-
-.projecttwo{
-    display: grid;
-    background-color: orange;
-    width: 400px;
-    height: 400px;
-}
-
-.projectthree{
-    display: grid;
-    background-color: orange;
-    width: 400px;
-    height: 400px;
-}
-.seemorecontainer{
+.seemorecontainer1{
     display: grid;
     background-color: lightgrey;
     width: 400px;
-    height: 150px;
-    margin: auto;
+    height: 400px;
     font-family: 'Open Sans', sans-serif;
 }
+.projects {
+    display: grid;
+    width: 1300px;
+    height: 400px;
+    grid-template-columns: 2fr 2fr 2fr;
+    row-gap: 50px;
+    column-gap: 50px;
+    background-color:orange;
+    margin: auto;
+  }
 
-.seemore{
+  .project {
+    background: red;
+    width: 400px;
+    height: 400px;
+  }
+
+  .see_more {
+    height: 400px;
+    background-color: orchid;
+    grid-column: span 3;
     font-weight: 800;
-    margin: auto auto 5px auto;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
 }
 
-.arrow{
-    background-color: #FF73D6;
-    width: 100px;
-    height: 50px;
-    margin: 5px auto auto auto;
+.welcomecontainer{
+    display:grid;
+    width: 1300px;
+    grid-template-columns: 50% 50%;
 }
-.projectspagetwo{}
+
+.welcomewords{
+    display:grid;
+    background-color: olivedrab;
+    width: 650px;
+    height: 440px;
+    margin-top: 125px;
+}
+
+.welcome{
+    display:grid;
+    background-color: chartreuse;
+    width: 275px;
+    height: 250px;
+}
+
+.profilepic{
+    display:grid;
+    background-color: lightskyblue;
+    width: 650px;
+    height: 440px;
+    margin-top: 125px;
+}
+
+.projecttitle{
+    display:grid;
+    background-color: chartreuse;
+    width: 650px;
+    height: 250px;
+}
