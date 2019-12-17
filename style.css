@@ -3,6 +3,10 @@ body {
     background-color: whitesmoke;  
 }
 
+img{
+    max-width: 100%;
+}
+
 h1{
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
@@ -17,7 +21,6 @@ p{
 .container{
     display:grid;
     width: 1300px;
-    background-color: lightpink;
     margin: 75px auto auto auto;
 }
 
@@ -65,7 +68,7 @@ a:link {
 
   /* mouse over link */
 a:hover {
-    color: hotpink;
+    color: rgb(255, 64, 198);
 }
 
 .work{
@@ -85,13 +88,11 @@ a:hover {
     display:grid;
     width: 1300px;
     height: 22px;
-    background-color: #FF73D6;
+    background-color: rgb(255, 64, 198);
 }
-
 
 .seemorecontainer1{
     display: grid;
-    background-color: lightgrey;
     width: 400px;
     height: 400px;
     font-family: 'Open Sans', sans-serif;
@@ -103,19 +104,17 @@ a:hover {
     grid-template-columns: 2fr 2fr 2fr;
     row-gap: 50px;
     column-gap: 50px;
-    background-color:orange;
     margin: auto;
   }
 
-  .project {
-    background: red;
+.project {
+    background: blue;
     width: 400px;
     height: 400px;
-  }
+}
 
-  .see_more {
+.see_more {
     height: 400px;
-    background-color: orchid;
     grid-column: span 3;
     font-weight: 800;
     font-family: 'Open Sans', sans-serif;
@@ -130,7 +129,6 @@ a:hover {
 
 .welcomewords{
     display:grid;
-    background-color: olivedrab;
     width: 650px;
     height: 440px;
     margin-top: 125px;
@@ -138,7 +136,6 @@ a:hover {
 
 .welcome{
     display:grid;
-    background-color: chartreuse;
     width: 275px;
     height: 250px;
 }
@@ -151,9 +148,16 @@ a:hover {
     margin-top: 125px;
 }
 
-.projecttitle{
+.projectitle{
     display:grid;
-    background-color: chartreuse;
-    width: 650px;
+    width: 325px;
     height: 250px;
+}
+
+.projectpic {
+    display:grid;
+    background-color: lightskyblue;
+    width: 650px;
+    height: 440px;
+    margin-top: 125px;
 }
