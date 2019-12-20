@@ -345,28 +345,27 @@ input[type=submit] {
     
     .seemorecontainer1{
         display: grid;
-        width: 400px;
-        height: 400px;
+        width: 300px;
+        height: 300px;
         font-family: 'Open Sans', sans-serif;
     }
+
     .projects {
         display: grid;
-        width: 1300px;
-        height: 400px;
-        grid-template-columns: 2fr 2fr 2fr;
+        width: 300px;
+        height: 300px;
         row-gap: 50px;
-        column-gap: 50px;
         margin: auto;
       }
     
     .project {
-        width: 400px;
-        height: 400px;
+        width: 300px;
+        height: 300px;
     }
     
     .see_more {
-        height: 400px;
-        grid-column: span 3;
+        height: 300px;
+        grid-column: span 1;
         font-weight: 800;
         font-family: 'Open Sans', sans-serif;
         text-align: center;
@@ -374,13 +373,266 @@ input[type=submit] {
     
     .welcomecontainer{
         display:grid;
-        width: 1300px;
+        width: 300px;
+        grid-template-rows: 50% 50%;
+        grid-template-columns: none;
+    }
+    
+    .welcomewords{
+        display:grid;
+        width: 300px;
+        height: 300px;
+    }
+    
+    .welcome{
+        display:grid;
+        width: 300px;
+        height: 300px;
+    }
+    
+    .profilepic{
+        display:grid;
+        width: 300px;
+        height: 300px;
+    }
+    
+    .projectitle{
+        display:grid;
+        width: 300px;
+        height: 300px;
+    }
+    
+    .projectpic {
+        display:grid;
+        width: 300px;
+        height: 300px;
+    }
+    
+    .containertwo {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 1em;
+        text-align: left;
+    }
+    
+    input[type=text], select, textarea {
+        width: 100%;
+        border: 4.5px solid rgb(255, 64, 198);
+    }
+    
+    .column {
+        display: grid;
+        width: 300px;
+        height: 300px;
+    }
+    
+    .row:after {
+        display: grid;
+    }
+    
+    .contacttitle{
+        display:grid;
+        width: 300px;
+        height: 300px;
+    }
+    
+    input[type=submit] {
+        color: whitesmoke;
+        background-color: rgb(255, 64, 198);
+        border: none;
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-size: 1em;
+        font-weight: 800;
+    }
+    
+    #lname{
+        width: 300px;
+        height: 20px;
+    }
+    
+    #subject{
+        width: 300px;
+    }
+    
+    .largeprojectpicture{
+        display:grid;
+        width: 300px;
+        height: 300px;
+    }
+    
+    .projectcontainer {
+        display: grid;
+        width: 300px;
+        height: 300px;
+        margin: auto;
+        grid-template-rows: 50% 50%;
+        grid-template-columns: none;
+    }
+    
+    .projectimg {
+        display: grid;
+        width: 300px;
+        height: 300px;
+        contain: content;
+    }
+    
+    .aboutcontainer{
+        display:grid;
+        width: 300px;
+        height: 300px;
+        grid-template-rows: 50% 50%;
+        grid-template-columns: none;
+    }
+    
+    .aboutimg{
+        display: grid;
+        width: 300px;
+        height: 300px;
+        contain: content;
+    }
+}
+
+
+/* ----------- TABLETS ----------- */
+ 
+@media only screen and (min-width: 800px) and (max-width: 1280px) {
+
+    body {
+        display:grid;
+        background-color: whitesmoke;  
+    }
+    
+    img{
+        max-width: 100%;
+    }
+    
+    h1{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 800;
+    }
+    
+    p{
+        font-family: source-code-pro,monospace;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    .container{
+        display:grid;
+        width: 630px;
+        margin: 75px auto auto auto;
+        
+    }
+    
+    .nav {
+        display: grid;
+        width: 630px;
+        height: 75px;
+        font-family: 'Open Sans', sans-serif;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: none;
+    }
+    
+    .name{
+        display:grid;
+        width: 630px;
+        height: 20px;
+        font-style: italic;
+        font-weight: 800;
+        font-size: 3em;
+    }
+    
+    .menu{
+        display: grid;
+        width: 633px;
+        margin: 45px auto auto auto;
+        grid-template-columns: 34% 33% 33%;
+    }
+    
+    .about{
+        display:grid;
+        font-style: italic;
+        font-weight: 800;
+        text-align: center;
+    }
+    
+    a{
+        color: black;
+    }
+    
+    /* unvisited link */
+    a:link {
+        color: black;
+        text-decoration: none;
+    }
+    
+      /* mouse over link */
+    a:hover {
+        color: rgb(255, 64, 198);
+    }
+    
+    .work{
+        display:grid;
+        font-style: italic;
+        font-weight: 800;
+        text-align: center;
+    }
+    
+    .contact{
+        display:grid;
+        text-align: center;
+        font-style: italic;
+        font-weight: 800;
+    }
+    .pinkbarone{
+        display:grid;
+        width: 630px;
+        height: 15px;
+        background-color: rgb(255, 64, 198);
+        margin-top: 15px;
+    }
+    
+    .seemorecontainer1{
+        display: grid;
+        width: 275px;
+        height: 275px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .projects {
+        display: grid;
+        width: 630px;
+        height: 400px;
+        grid-template-columns: 2fr 2fr;
+        row-gap: 50px;
+        column-gap: 50px;
+        margin: auto;
+      }
+    
+    .project {
+        width: 275px;
+        height: 275px;
+    }
+    
+    .see_more {
+        width: 600px;
+        height: 275px;
+        grid-column: span 2;
+        font-weight: 800;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+    }
+    
+    .welcomecontainer{
+        display:grid;
+        width: 630px;
         grid-template-columns: 50% 50%;
     }
     
     .welcomewords{
         display:grid;
-        width: 650px;
+        width: 316px;
         height: 440px;
         margin-top: 125px;
     }
@@ -393,7 +645,7 @@ input[type=submit] {
     
     .profilepic{
         display:grid;
-        width: 650px;
+        width: 316px;
         height: 440px;
         margin-top: 125px;
     }
@@ -406,7 +658,7 @@ input[type=submit] {
     
     .projectpic {
         display:grid;
-        width: 650px;
+        width: 316px;
         height: 440px;
         margin-top: 125px;
     }
@@ -468,7 +720,7 @@ input[type=submit] {
     
     .projectcontainer {
         display: grid;
-        width: 1300px;
+        width: 630px;
         height: 450px;
         margin: auto;
         grid-template-columns: 50% 50%;
@@ -476,14 +728,14 @@ input[type=submit] {
     
     .projectimg {
         display: grid;
-        width: 650px;
+        width: 316px;
         height: 425px;
         contain: content;
     }
     
     .aboutcontainer{
         display:grid;
-        width: 1300px;
+        width: 630px;
         height: 600px;
         margin-top: 200px;
         grid-template-columns: 50% 50%;
@@ -491,14 +743,8 @@ input[type=submit] {
     
     .aboutimg{
         display: grid;
-        width: 650px;
-        height: 425px;
+        width: 300px;
+        height: 600px;
         contain: content;
     }
-}
-
-
-/* ----------- TABLETS ----------- */
- 
-@media only screen and (min-width: 800px) and (max-width: 1280px) {
 }
