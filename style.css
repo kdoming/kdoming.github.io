@@ -108,7 +108,6 @@ a:hover {
   }
 
 .project {
-    background: blue;
     width: 400px;
     height: 400px;
 }
@@ -142,7 +141,6 @@ a:hover {
 
 .profilepic{
     display:grid;
-    background-color: lightskyblue;
     width: 650px;
     height: 440px;
     margin-top: 125px;
@@ -156,7 +154,6 @@ a:hover {
 
 .projectpic {
     display:grid;
-    background-color: lightskyblue;
     width: 650px;
     height: 440px;
     margin-top: 125px;
@@ -208,4 +205,41 @@ input[type=submit] {
 
 #subject{
     width: 300px;
+}
+
+.largeprojectpicture{
+    display:grid;
+    width: 1300px;
+    height: 600px;
+    margin-top: 200px;
+}
+
+.projectcontainer {
+    display: grid;
+    width: 1300px;
+    height: 450px;
+    margin: auto;
+    grid-template-columns: 50% 50%;
+}
+
+.projectimg {
+    display: grid;
+    width: 650px;
+    height: 425px;
+    contain: content;
+}
+
+.aboutcontainer{
+    display:grid;
+    width: 1300px;
+    height: 600px;
+    margin-top: 200px;
+    grid-template-columns: 50% 50%;
+}
+
+.aboutimg{
+    display: grid;
+    width: 650px;
+    height: 425px;
+    contain: content;
 }
